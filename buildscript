@@ -1,0 +1,7 @@
+echo "Downloading library for ${TARGET_NAME}"
+rm -R Adobe
+mkdir Adobe
+cd Adobe
+curl -O https://whereItIsHosted/AdobeCreativeSDKFoundation.framework.zip
+unzip AdobeCreativeSDKFoundation.framework.zip
+rm AdobeCreativeSDKFoundation.framework.zip
